@@ -1,0 +1,21 @@
+                                                 
+
+                                                TPC1
+
+-Mudamos o valor do argumento do ficheiro pom so Server Socket, trocamos o valor para 8000. 
+
+-Depois de configurar o IDE, compilar e executar mvn:
+	
+	executamos primeiro o servidor e depois o cliente e obtemos essa mensagem:
+
+	Connected to server localhost on port 8000 
+	Sent text: test 1 2 3
+	Connection closed
+
+- na linha 45 colocamos algumas instrucoes para o cliente poder eviar mesagem ao servidor e em seguida o servidor ira apresentar a mesagem enviada pelo cliente em formato de texto
+	- caso o cliente queira terminar a conexao ira digitar a String 'stop'
+
+
+
+
+
